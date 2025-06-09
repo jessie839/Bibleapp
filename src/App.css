@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: linear-gradient(rgb(122, 211, 240), rgb(136, 26, 140));
+  color: #2b1a37;
+  text-align: center;
+}
+
+.start-page,
+.menu-page
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.start-btn,
+.menu-btn,
+.next-btn {
+  padding: 12px 24px;
+  margin: 15px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  background: linear-gradient(135deg, #4b92b3, #dc60c3);
+  color: #050505;
+  box-shadow: 0 0 12px #ffffff79;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.start-btn:hover,
+.menu-btn:hover,
+.next-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 18px #ff9ee7;
+}
+
+
+
+.quiz-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background-image: linear-gradient(rgb(122, 211, 240), rgb(136, 26, 140));
+  text-align: center;
+}
+
+.quiz-page h3 {
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+  color: #2b1a37;
+}
+
+.option-btn {
+  background: linear-gradient(135deg, #4b92b3, #dc60c3);
+  border: 2px solid #d88aff;
+  border-radius: 16px;
+  padding: 15px 20px;
+  margin: 12px;
+  width: 250px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 0 12px #f49fff;
+  transition: all 0.2s ease;
+  color:#050505;
+}
+
+.option-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ea7efb;
+  background-color: #f9d0ff;
+}
+
+.quiz-page h2 {
+  font-size: 2rem;
+  color: #2b1a37;
+}
+.learn-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 40px;
+  background-image: linear-gradient(rgb(122, 211, 240), rgb(136, 26, 140));
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: 0px 4px 15px rgb(204, 0, 255);
+  transition: all 0.3s ease;
+  border:solid 3px rgb(255, 2, 196);
+}
+
+@media (max-width: 400px) {
+  .learn-page {
+    width: 90%;
+    padding: 30px 20px;
+  }
+}
