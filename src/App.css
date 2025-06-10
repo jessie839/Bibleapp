@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-image: linear-gradient(rgb(122, 211, 240), rgb(136, 26, 140));
-  color: #2b1a37;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -25,7 +25,7 @@ body {
   border-radius: 12px;
   font-size: 1.2rem;
   background: linear-gradient(135deg, #4b92b3, #dc60c3);
-  color: #050505;
+  color: #ffffff;
   box-shadow: 0 0 12px #ffffff79;
   cursor: pointer;
   transition: transform 0.2s ease;
@@ -54,7 +54,7 @@ body {
 .quiz-page h3 {
   font-size: 1.6rem;
   margin-bottom: 30px;
-  color: #2b1a37;
+  color: #ffffff;
 }
 
 .option-btn {
@@ -69,7 +69,7 @@ body {
   cursor: pointer;
   box-shadow: 0 0 12px #f49fff;
   transition: all 0.2s ease;
-  color:#050505;
+  color:#ffffff;
 }
 
 .option-btn:hover {
@@ -80,7 +80,7 @@ body {
 
 .quiz-page h2 {
   font-size: 2rem;
-  color: #2b1a37;
+  color: #ffffff;
 }
 .learn-page {
   position: absolute;
